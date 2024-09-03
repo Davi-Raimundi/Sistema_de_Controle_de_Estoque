@@ -1,0 +1,31 @@
+Projeto 5: Sistema de Controle de Estoque
+
+Descrição: O projeto envolve a criação de um Sistema de Controle de Estoque para gerenciar produtos, fornecedores e pedidos de reposição. O sistema deve permitir a gestão eficiente dos produtos disponíveis em estoque, dos fornecedores que fornecem esses produtos, e dos pedidos de reposição realizados para manter o estoque adequado.
+
+Objetivo: Desenvolver um banco de dados completo que permita o gerenciamento de informações sobre produtos, fornecedores e pedidos de reposição. O sistema deve ser capaz de realizar inserção, atualização, exclusão e consulta de dados de forma eficiente.
+
+Requisitos do Sistema:
+
+Criar o Banco de Dados:
+
+Crie um banco de dados chamado SistemaControleEstoque.
+Criar as Tabelas:
+
+Fornecedores: Informações sobre os fornecedores, incluindo ID, nome, endereço e telefone.
+Produtos: Informações sobre os produtos, incluindo ID, nome, preço, quantidade em estoque e ID do fornecedor.
+PedidosReposicao: Registros dos pedidos de reposição, incluindo ID, ID do produto, quantidade e data do pedido.
+Inserir Dados:
+
+Adicione pelo menos 3 fornecedores, 3 produtos e 3 pedidos de reposição.
+Consultar Dados:
+
+Verifique todos os produtos em estoque.
+Consulte todos os pedidos de reposição realizados.
+Obtenha informações sobre os fornecedores e os pedidos de reposição associados a um produto específico.
+Atualizar Dados:
+
+Atualize a quantidade de produtos em estoque após o recebimento de um novo pedido de reposição.
+Modifique informações de contato dos fornecedores.
+Deletar Dados:
+
+Remova produtos e fornecedores, garantindo que registros relacionados em outras tabelas sejam adequadamente tratados.
