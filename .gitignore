@@ -1,0 +1,27 @@
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos temporários e de log
+*.tmp
+*.log
+
+# Ignore arquivos de backup e temporários do editor
+*.bak
+*.sql~
+*.swp
+
+# Ignore diretórios de configuração do ambiente e de dependências
+node_modules/
+venv/
+env/
+.idea/
+*.iml
+
+# Ignore arquivos gerados automaticamente
+*.sql
+*.db
+*.sqlite
+
+# Ignore arquivos de configuração local
+config.local.json
